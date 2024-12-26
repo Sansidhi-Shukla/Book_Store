@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "mern project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sansidhi-Shukla/BookStore.git"
+  },
+  "author": "Sansidhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sansidhi-Shukla/BookStore/issues"
+  },
+  "homepage": "https://github.com/Sansidhi-Shukla/BookStore#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "course": "^0.0.1",
+    "decrypt": "^0.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3",
+    "nodemon": "^3.1.7"
+  }
+}
